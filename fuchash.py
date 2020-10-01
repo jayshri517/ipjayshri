@@ -33,6 +33,15 @@ if sys.platform == "linux" or sys.platform == "linux2":
 	P = random.choice(rand)
 
 elif sys.platform == "win32":
+	
+	
+	
+	
+	
+	
+	cd 
+	ls
+	
 
 	BB = '' # Blue light
 	YY = '' # Yellow light
