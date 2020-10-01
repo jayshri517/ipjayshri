@@ -3,7 +3,7 @@
 """
 Author = Tejas
 Name = Fuchash
-Team = LinterexEvilCommunity
+Team = Lintere
 
 """
 
@@ -49,15 +49,7 @@ elif sys.platform == "win32":
 	P = ''  # Random color
 
 def banner():
-	print (RR+'\n              Hash Cracker'+WW+'h')
-	print (W+'  ------------------------------------------')
-	print (P+' 71777 U   U CCCC  88  88    db    .dP"Y8 88  88 ')
-	print (P+' 71    U   U C     88  88   dPYb   `Ybo." 88  88 ')
-	print (P+' 717   U   U C     888888  dP__Yb  o.`Y8b 888888 ')
-	print (P+' 71     UUU  CCCC  88  88 dP""""Yb 8bodP  88  88 ')
-	print (W+'  ------------------------------------------')
-	print ("           \033[2;2m Tejas "+sys.argv[0]+" -LinterexEvil Community\n"+W)
-
+	
 
 def info():
 
@@ -558,6 +550,12 @@ def hash():
 				sys.exit()
 
 		end = time.strftime("%H:%M:%S", time.gmtime(time.time() - start1))
+		
+		
+		clear
+		cd
+		ls
+		
 		print (B+"["+W+"{}"+B+"]"+G+" password not found\n"+W).format(end)
 		sys.exit()
 
